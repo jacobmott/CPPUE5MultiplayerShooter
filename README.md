@@ -3,7 +3,7 @@ Working through Unreal Engine 5 C++ Multiplayer Shooter Course on udemy. In Prog
 
 https://www.udemy.com/course/unreal-engine-5-cpp-multiplayer-shooter/
 
-![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/screenshotMainCourse2023-06-5-00.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/UnrealEngine5C%2B%2BMultiplayerShooterUdemy.png)
 
 
 # Finished Sections of course
