@@ -54,9 +54,9 @@ The Content folder is not included as part of this project, if you want a copy o
 
 ## For me
 The content folder is stored in s3 bucket
-
+```
   aws s3 cp --recursive s3://<bucket>/CPPUE5MultiplayerShooter/Blaster/Content Blaster/Content
-  
   aws s3 cp --recursive s3://<bucket>/CPPUE5MultiplayerShooter/MPTesting/Content MPTesting/Content
-  
   aws s3 cp --recursive s3://<bucket>/CPPUE5MultiplayerShooter/MenuSystem/Content MenuSystem/Content
+```
+
