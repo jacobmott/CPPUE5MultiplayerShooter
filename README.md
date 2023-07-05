@@ -27,7 +27,7 @@ https://www.udemy.com/course/unreal-engine-5-cpp-multiplayer-shooter/
 ![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/CPPUE5MultiplayerShooter-Section1-3_8.png)
 
 
-![](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/CPPUE5MultiplayerShooter-Section1-3.gif)
+![](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/CPPUE5MultiplayerShooter-Section1-3.gif)
 
 
 ### Youtube vid
