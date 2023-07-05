@@ -17,6 +17,12 @@ https://www.udemy.com/course/unreal-engine-5-cpp-multiplayer-shooter/
 
 ## Section 3: Project Creation
 
+Had to go through this youtube video to do retargeting for UE5.2
+https://www.youtube.com/watch?v=_sLnCqBaElI
+
+Also had to add Enhanced Input, using code/setup from previous project here
+https://github.com/jacobmott/CPPUE5UltGameDevCrs/blob/main/Source/CPPUE5UltGameDevCrs/Public/Characters/SlashCharacter.h
+
 ![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/CPPUE5MultiplayerShooter-Section1-3_1.png)
 ![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/CPPUE5MultiplayerShooter-Section1-3_2.png)
 ![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/CPPUE5MultiplayerShooter-Section1-3_3.png)
