@@ -17,14 +17,14 @@ https://www.udemy.com/course/unreal-engine-5-cpp-multiplayer-shooter/
 
 ## Section 3: Project Creation
 
-![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/CPPUE5MultiplayerShooter-Section1-3_1.png)
-![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/CPPUE5MultiplayerShooter-Section1-3_2.png)
-![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/CPPUE5MultiplayerShooter-Section1-3_3.png)
-![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/CPPUE5MultiplayerShooter-Section1-3_4.png)
-![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/CPPUE5MultiplayerShooter-Section1-3_5.png)
-![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/CPPUE5MultiplayerShooter-Section1-3_6.png)
-![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/CPPUE5MultiplayerShooter-Section1-3_7.png)
-![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/CPPUE5MultiplayerShooter-Section1-3_8.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/CPPUE5MultiplayerShooter-Section1-3_1.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/CPPUE5MultiplayerShooter-Section1-3_2.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/CPPUE5MultiplayerShooter-Section1-3_3.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/CPPUE5MultiplayerShooter-Section1-3_4.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/CPPUE5MultiplayerShooter-Section1-3_5.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/CPPUE5MultiplayerShooter-Section1-3_6.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/CPPUE5MultiplayerShooter-Section1-3_7.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/CPPUE5MultiplayerShooter-Section1-3_8.png)
 
 
 ![](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/CPPUE5MultiplayerShooter-Section1-3.gif)
