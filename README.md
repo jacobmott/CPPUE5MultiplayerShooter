@@ -54,7 +54,7 @@ https://youtu.be/46iaDDNVhOo
 ![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/Sec4TheWeapon7.png)
 ![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/Sec4TheWeapon8.png)
 ![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/Sec4TheWeapon9.png)
-![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/creenshots/Sec4TheWeapon10.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/Sec4TheWeapon10.png)
 ![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/Sec4TheWeapon11.png)
 ![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/Sec4TheWeapon12.png)
 
