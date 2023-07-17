@@ -116,4 +116,11 @@ Push to bucket
   aws s3 cp --recursive MenuSystem/Content s3://<bucket>/CPPUE5MultiplayerShooter/MenuSystem/Content
 ```
 
+Or just do a sync
+```
+  aws s3 sync Blaster/Content s3://<bucket>/CPPUE5MultiplayerShooter/Blaster/Content --delete
+  aws s3 sync MPTesting/Content s3://<bucket>/CPPUE5MultiplayerShooter/MPTesting/Content --delete
+  aws s3 sync MenuSystem/Content s3://<bucket>/CPPUE5MultiplayerShooter/MenuSystem/Content --delete
+```
+
 
