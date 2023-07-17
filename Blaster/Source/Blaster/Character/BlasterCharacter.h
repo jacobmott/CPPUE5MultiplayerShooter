@@ -22,7 +22,11 @@ public:
 	virtual void Tick(float DeltaTime) override;
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 	virtual void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
+	void PlayFireMontage(bool bAiming);
+
 	virtual void Jump() override;
+	void FireButtonPressed();
+	void FireButtonReleased();
 
 	virtual void PostInitializeComponents() override;
 
@@ -71,6 +75,13 @@ protected:
   UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input)
   UInputAction* RightMouseReleasedAction;
 
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input)
+  UInputAction* FirePressedAction;
+
+  UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input)
+  UInputAction* FireReleasedAction;
+
+
 private:
 	UPROPERTY(VisibleAnywhere, Category = Camera)
 	class USpringArmComponent* CameraBoom;
@@ -101,6 +112,10 @@ private:
 
 	ETurningInPlace TurningInPlace;
 	void TurnInPlace(float DeltaTime);
+
+	UPROPERTY(EditAnywhere, Category = Combat)
+	class UAnimMontage* FireWeaponMontage;
+
 
 public:
 	void SetOverlappingWeapon(AWeapon* Weapon);
