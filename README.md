@@ -69,9 +69,32 @@ https://youtu.be/GSGzTB4VxPA
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/GSGzTB4VxPA/0.jpg)](https://youtu.be/GSGzTB4VxPA)
 
 
+## Section 5: Firing Weapons
+
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/FiringWeapons1.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/FiringWeapons2.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/FiringWeapons3.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/FiringWeapons4.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/FiringWeapons5.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/FiringWeapons6.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/FiringWeapons7.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/FiringWeapons8.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/FiringWeapons9.png)
+
+
+![](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/ Screenshots/FiringWeapons.gif)
+
+
+### Youtube vid
+
+https://youtu.be/hF7oO6ivaH4
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/hF7oO6ivaH4/0.jpg)](https://youtu.be/hF7oO6ivaH4)
+
+
 # Started Section
 
-## Section 5: Firing Weapons
+## Section 6: Weapon Aim Mechanics
 
 # Project Setup/Install instructions
 The Content folder is not included as part of this project, if you want a copy of it, contact me @ vortexgamesemail@gmail.com
