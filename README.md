@@ -82,7 +82,7 @@ https://youtu.be/GSGzTB4VxPA
 ![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/FiringWeapons9.png)
 
 
-![](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/ Screenshots/FiringWeapons.gif)
+![](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/FiringWeapons.gif)
 
 
 ### Youtube vid
