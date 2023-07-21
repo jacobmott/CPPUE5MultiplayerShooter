@@ -92,9 +92,32 @@ https://youtu.be/hF7oO6ivaH4
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/hF7oO6ivaH4/0.jpg)](https://youtu.be/hF7oO6ivaH4)
 
 
+## Section 6: Weapon Aim Mechanics
+
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/WeaponAimMechanics1.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/WeaponAimMechanics2.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/WeaponAimMechanics3.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/WeaponAimMechanics4.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/WeaponAimMechanics5.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/WeaponAimMechanics6.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/WeaponAimMechanics7.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/WeaponAimMechanics8.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/WeaponAimMechanics10.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/WeaponAimMechanics11.png)
+
+![](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/WeaponAimMechanics1.gif)
+
+
+### Youtube vid
+
+https://youtu.be/VjaOHnsXjW8
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/VjaOHnsXjW8/0.jpg)](https://youtu.be/VjaOHnsXjW8)
+
+
 # Started Section
 
-## Section 6: Weapon Aim Mechanics
+## Section 7: Health And Player Stats
 
 # Project Setup/Install instructions
 The Content folder is not included as part of this project, if you want a copy of it, contact me @ vortexgamesemail@gmail.com
