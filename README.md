@@ -115,9 +115,42 @@ https://youtu.be/VjaOHnsXjW8
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/VjaOHnsXjW8/0.jpg)](https://youtu.be/VjaOHnsXjW8)
 
 
+## Section 7: Health And Player Stats
+
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/HealthAndPlayerStats1.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/HealthAndPlayerStats2.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/HealthAndPlayerStats3.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/HealthAndPlayerStats4.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/HealthAndPlayerStats5.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/HealthAndPlayerStats6.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/HealthAndPlayerStats7.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/HealthAndPlayerStats8.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/HealthAndPlayerStats9.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/HealthAndPlayerStats10.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/HealthAndPlayerStats11.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/HealthAndPlayerStats12.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/HealthAndPlayerStats13.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/HealthAndPlayerStats14.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/HealthAndPlayerStats15.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/HealthAndPlayerStats16.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/HealthAndPlayerStats17.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/HealthAndPlayerStats18.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/HealthAndPlayerStats19.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/HealthAndPlayerStats20.png)
+
+![](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/HealthAndPlayerStats20.gif)
+
+
+### Youtube vid
+
+https://youtu.be/lqnuUtDtLmQ
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/lqnuUtDtLmQ/0.jpg)](https://youtu.be/lqnuUtDtLmQ)
+
+
 # Started Section
 
-## Section 7: Health And Player Stats
+## Section 8: Ammo
 
 # Project Setup/Install instructions
 The Content folder is not included as part of this project, if you want a copy of it, contact me @ vortexgamesemail@gmail.com
