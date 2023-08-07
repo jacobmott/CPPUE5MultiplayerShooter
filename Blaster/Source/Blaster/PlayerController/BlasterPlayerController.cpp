@@ -224,6 +224,23 @@ void ABlasterPlayerController::SetHUDTime()
 	else if (MatchState == MatchState::InProgress) TimeLeft = WarmupTime + MatchTime - GetServerTime() + LevelStartingTime;
 	else if (MatchState == MatchState::Cooldown) TimeLeft = CooldownTime + WarmupTime + MatchTime - GetServerTime() + LevelStartingTime;
 	uint32 SecondsLeft = FMath::CeilToInt(TimeLeft);
+
+
+	if (HasAuthority())
+	{
+		if (BlasterGameMode == nullptr)
+		{
+			BlasterGameMode = Cast<ABlasterGameMode>(UGameplayStatics::GetGameMode(this));
+			LevelStartingTime = BlasterGameMode->LevelStartingTime;
+		}
+		BlasterGameMode = BlasterGameMode == nullptr ? Cast<ABlasterGameMode>(UGameplayStatics::GetGameMode(this)) : BlasterGameMode;
+		if (BlasterGameMode)
+		{
+			SecondsLeft = FMath::CeilToInt(BlasterGameMode->GetCountdownTime() + LevelStartingTime);
+		}
+	}
+
+
 	if (CountdownInt != SecondsLeft)
 	{
 		if (MatchState == MatchState::WaitingToStart || MatchState == MatchState::Cooldown)
