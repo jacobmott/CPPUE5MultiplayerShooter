@@ -234,6 +234,9 @@ https://youtu.be/blaOuhiO2aE
 
 ## Section 10: Different Weapon Types
 
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/Section10DifferentWeaponTypes1.gif)
+
+
 # Project Setup/Install instructions
 The Content folder is not included as part of this project, if you want a copy of it, contact me @ vortexgamesemail@gmail.com
 
