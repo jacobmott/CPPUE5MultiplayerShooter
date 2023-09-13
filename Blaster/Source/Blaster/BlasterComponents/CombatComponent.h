@@ -9,13 +9,12 @@
 #include "Blaster/BlasterTypes/CombatState.h"
 #include "CombatComponent.generated.h"
 
-
-UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
+UCLASS(ClassGroup = (Custom), meta = (BlueprintSpawnableComponent))
 class BLASTER_API UCombatComponent : public UActorComponent
 {
 	GENERATED_BODY()
 
-public:	
+public:
 	UCombatComponent();
 	friend class ABlasterCharacter;
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
@@ -27,6 +26,11 @@ public:
 	void FinishReloading();
 
 	void FireButtonPressed(bool bPressed);
+
+	UFUNCTION(BlueprintCallable)
+	void ShotgunShellReload();
+
+	void JumpToShotgunEnd();
 protected:
 	virtual void BeginPlay() override;
 	void SetAiming(bool bIsAiming);
@@ -77,7 +81,7 @@ private:
 
 	bool bFireButtonPressed;
 
-	/** 
+	/**
 	* HUD and crosshairs
 	*/
 
@@ -90,7 +94,7 @@ private:
 
 	FHUDPackage HUDPackage;
 
-	/** 
+	/**
 	* Aiming and FOV
 	*/
 
@@ -131,14 +135,11 @@ private:
 	UPROPERTY(EditAnywhere)
 	int32 StartingARAmmo = 30;
 
-
 	UPROPERTY(EditAnywhere)
 	int32 StartingRocketAmmo = 0;
 
-
 	UPROPERTY(EditAnywhere)
 	int32 StartingPistolAmmo = 0;
-
 
 	UPROPERTY(EditAnywhere)
 	int32 StartingSMGAmmo = 0;
@@ -161,6 +162,7 @@ private:
 	void OnRep_CombatState();
 
 	void UpdateAmmoValues();
+	void UpdateShotgunAmmoValues();
 
-public:	
+public:
 };
