@@ -273,6 +273,20 @@ https://youtu.be/blaOuhiO2aE
 ![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/Section10DifferentWeaponTypes27.png)
 ![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/Section10DifferentWeaponTypes28.gif)
 ![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/Section10DifferentWeaponTypes28.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/Section10DifferentWeaponTypes29.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/Section10DifferentWeaponTypes30.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/Section10DifferentWeaponTypes31.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/Section10DifferentWeaponTypes32.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/Section10DifferentWeaponTypes33.gif)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/Section10DifferentWeaponTypes33.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/Section10DifferentWeaponTypes34.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/Section10DifferentWeaponTypes35.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/Section10DifferentWeaponTypes36.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/Section10DifferentWeaponTypes37.gif)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/Section10DifferentWeaponTypes37.png)
+
+
+
 
 # Project Setup/Install instructions
 The Content folder is not included as part of this project, if you want a copy of it, contact me @ vortexgamesemail@gmail.com
