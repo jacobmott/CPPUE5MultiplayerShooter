@@ -230,8 +230,6 @@ https://youtu.be/blaOuhiO2aE
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/blaOuhiO2aE/0.jpg)](https://youtu.be/blaOuhiO2aE)
 
 
-# Started Section
-
 ## Section 10: Different Weapon Types
 
 ![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/Section10DifferentWeaponTypes1.gif)
@@ -284,8 +282,32 @@ https://youtu.be/blaOuhiO2aE
 ![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/Section10DifferentWeaponTypes36.png)
 ![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/Section10DifferentWeaponTypes37.gif)
 ![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/Section10DifferentWeaponTypes37.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/Section10DifferentWeaponTypes38.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/Section10DifferentWeaponTypes39.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/Section10DifferentWeaponTypes40.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/Section10DifferentWeaponTypes41.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/Section10DifferentWeaponTypes42.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/Section10DifferentWeaponTypes43.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/Section10DifferentWeaponTypes44.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/Section10DifferentWeaponTypes45.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/Section10DifferentWeaponTypes46.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/Section10DifferentWeaponTypes47.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/Section10DifferentWeaponTypes48.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/Section10DifferentWeaponTypes49.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/Section10DifferentWeaponTypes50.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/Section10DifferentWeaponTypes51.png)
 
 
+### Youtube vid
+
+https://youtu.be/R1Tu0_PW_f4
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/R1Tu0_PW_f4/0.jpg)](https://youtu.be/R1Tu0_PW_f4)
+
+
+# Started Section
+
+## Section 11: Pickups
 
 
 # Project Setup/Install instructions
