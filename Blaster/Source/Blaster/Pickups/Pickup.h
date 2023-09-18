@@ -10,7 +10,7 @@ UCLASS()
 class BLASTER_API APickup : public AActor
 {
 	GENERATED_BODY()
-
+	
 public:	
 	APickup();
 	virtual void Tick(float DeltaTime) override;
@@ -41,6 +41,12 @@ private:
 
 	UPROPERTY(EditAnywhere)
 	UStaticMeshComponent* PickupMesh;
+
+	UPROPERTY(VisibleAnywhere)
+	class UNiagaraComponent* PickupEffectComponent;
+
+	UPROPERTY(EditAnywhere)
+	class UNiagaraSystem* PickupEffect;
 
 public:	
 
