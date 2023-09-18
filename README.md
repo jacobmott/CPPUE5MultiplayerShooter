@@ -341,8 +341,17 @@ https://youtu.be/R1Tu0_PW_f4
 ![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/Section11Pickups28.png)
 ![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/Section11Pickups29.gif)
 ![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/Section11Pickups29.png)
-
-
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/Section11Pickups30.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/Section11Pickups31.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/Section11Pickups32.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/Section11Pickups33.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/Section11Pickups34.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/Section11Pickups35.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/Section11Pickups36.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/Section11Pickups37.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/Section11Pickups38.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/Section11Pickups40.gif)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/Section11Pickups40.png)
 
 # Project Setup/Install instructions
 The Content folder is not included as part of this project, if you want a copy of it, contact me @ vortexgamesemail@gmail.com
