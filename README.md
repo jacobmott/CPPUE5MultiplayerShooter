@@ -338,6 +338,11 @@ https://youtu.be/R1Tu0_PW_f4
 ![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/Section11Pickups26.png)
 ![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/Section11Pickups27.gif)
 ![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/Section11Pickups27.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/Section11Pickups28.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/Section11Pickups29.gif)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5MultiplayerShooter/main/Screenshots/Section11Pickups29.png)
+
+
 
 # Project Setup/Install instructions
 The Content folder is not included as part of this project, if you want a copy of it, contact me @ vortexgamesemail@gmail.com
