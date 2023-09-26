@@ -33,6 +33,10 @@
 		{
 			"Name": "SkeletalMeshModelingTools",
 			"Enabled": true
+		},
+		{
+			"Name": "GPULightmass",
+			"Enabled": true
 		}
 	]
 }
