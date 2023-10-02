@@ -5,10 +5,15 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "Blaster/BlasterTypes/TurningInPlace.h"
+#include "InputActionValue.h"
 #include "Blaster/Interfaces/InteractWithCrosshairsInterface.h"
 #include "Components/TimelineComponent.h"
 #include "Blaster/BlasterTypes/CombatState.h"
 #include "BlasterCharacter.generated.h"
+
+class UInputMappingContext;
+class UInputAction;
+
 
 UCLASS()
 class BLASTER_API ABlasterCharacter : public ACharacter, public IInteractWithCrosshairsInterface
@@ -20,7 +25,6 @@ public:
 	virtual void Tick(float DeltaTime) override;
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 	virtual void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
-	virtual void PostInitializeComponents() override;
 	void PlayFireMontage(bool bAiming);
 	void PlayReloadMontage();
 	void PlayElimMontage();
@@ -42,13 +46,34 @@ public:
 	void UpdateHUDAmmo();
 
 	void SpawDefaultWeapon();
+
+	virtual void Jump() override;
+	void FireButtonPressed();
+	void FireButtonReleased();
+	void PlayHitReactMontage();
+	void GrenadeButtonPressed();
+
+	void DropOrDestroyWeapon(AWeapon* Weapon);
+	void DropOrDestroyWeapons();
+
+	UFUNCTION()
+	void ReceiveDamage(AActor* DamagedActor, float Damage, const UDamageType* DamageType, class AController* InstigatorController, AActor* DamageCauser);
+
+	// Poll for any relelvant classes and initialize our HUD
+	void PollInit();
+	void RotateInPlace(float DeltaTime);
+
+	virtual void PostInitializeComponents() override;
+
 protected:
 	virtual void BeginPlay() override;
 
-	void MoveForward(float Value);
-	void MoveRight(float Value);
-	void Turn(float Value);
-	void LookUp(float Value);
+	/** Called for movement input */
+	void Move(const FInputActionValue& Value);
+
+	/** Called for looking input */
+	void Look(const FInputActionValue& Value);
+
 	void EquipButtonPressed();
 	void CrouchButtonPressed();
 	void ReloadButtonPressed();
@@ -57,19 +82,52 @@ protected:
 	void AimOffset(float DeltaTime);
 	void CalculateAO_Pitch();
 	void SimProxiesTurn();
-	virtual void Jump() override;
-	void FireButtonPressed();
-	void FireButtonReleased();
-	void PlayHitReactMontage();
-	void GrenadeButtonPressed();
-	void DropOrDestroyWeapon(AWeapon* Weapon);
-	void DropOrDestroyWeapons();
 
-	UFUNCTION()
-	void ReceiveDamage(AActor* DamagedActor, float Damage, const UDamageType* DamageType, class AController* InstigatorController, AActor* DamageCauser);
-	// Poll for any relelvant classes and initialize our HUD
-	void PollInit();
-	void RotateInPlace(float DeltaTime);
+	/** MappingContext */
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input)
+	class UInputMappingContext* BlasterContext;
+
+		///** Jump Input Action */
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input)
+	UInputAction* JumpAction;
+
+	/** Move Input Action */
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input)
+	UInputAction* MovementAction;
+
+  ///** Look Input Action */
+  UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input)
+  UInputAction* LookAction;
+
+	///** EKey Pressed Input Action */
+  UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input)
+  UInputAction* EKeyPressedAction;
+
+	///** EKey Pressed Input Action */
+  UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input)
+  UInputAction* ShiftKeyPressedAction;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input)
+  UInputAction* RightMousePressedAction;
+
+  UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input)
+  UInputAction* RightMouseReleasedAction;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input)
+  UInputAction* FirePressedAction;
+
+  UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input)
+  UInputAction* FireReleasedAction;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input)
+  UInputAction* ReloadPressedAction;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input)
+	UInputAction* ThrowGrenadePressedAction;
+
+	
+	bool addedMappingContext = false;
+
 private:
 	UPROPERTY(VisibleAnywhere, Category = Camera)
 	class USpringArmComponent* CameraBoom;
@@ -79,6 +137,7 @@ private:
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
 	class UWidgetComponent* OverheadWidget;
+
 
 	UPROPERTY(ReplicatedUsing = OnRep_OverlappingWeapon)
 	class AWeapon* OverlappingWeapon;
@@ -92,6 +151,7 @@ private:
 	UPROPERTY(VisibleAnywhere)
 	class UBuffComponent* Buff;
 
+
 	UFUNCTION(Server, Reliable)
 	void ServerEquipButtonPressed();
 
@@ -103,9 +163,10 @@ private:
 	ETurningInPlace TurningInPlace;
 	void TurnInPlace(float DeltaTime);
 
-	/** 
-	* Animation montages
-	*/
+	/**
+  * Animation montages
+  */
+
 
 	UPROPERTY(EditAnywhere, Category = Combat)
 	class UAnimMontage* FireWeaponMontage;
@@ -161,6 +222,8 @@ private:
 	UFUNCTION()
 	void OnRep_Shield(float LastShield);
 
+
+
 	UPROPERTY()
 	class ABlasterPlayerController* BlasterPlayerController;
 
@@ -195,7 +258,7 @@ private:
 	// Material instance set on the Blueprint, used with the dynamic material instance
 	UPROPERTY(EditAnywhere, Category = Elim)
 	UMaterialInstance* DissolveMaterialInstance;
-
+	
 	/**
 	* Elim bot
 	*/
@@ -208,13 +271,13 @@ private:
 
 	UPROPERTY(EditAnywhere)
 	class USoundCue* ElimBotSound;
-
+	
 	UPROPERTY()
 	class ABlasterPlayerState* BlasterPlayerState;
 
-	/** 
-	* Grenade
-	*/
+	/**
+  * Grenade
+  */
 
 	UPROPERTY(VisibleAnywhere)
 	UStaticMeshComponent* AttachedGrenade;
@@ -226,10 +289,12 @@ private:
 	UPROPERTY(EditAnywhere)
 	TSubclassOf<AWeapon> DefaultWeaponClass;
 
-public:	
+
+public:
 	void SetOverlappingWeapon(AWeapon* Weapon);
 	bool IsWeaponEquipped();
 	bool IsAiming();
+
 	FORCEINLINE float GetAO_Yaw() const { return AO_Yaw; }
 	FORCEINLINE float GetAO_Pitch() const { return AO_Pitch; }
 	AWeapon* GetEquippedWeapon();
@@ -250,5 +315,6 @@ public:
 	FORCEINLINE UAnimMontage* GetReloadMontage() const { return ReloadMontage; }
 	FORCEINLINE UStaticMeshComponent* GetAttachedGrenade() const { return AttachedGrenade; }
 	FORCEINLINE UBuffComponent* GetBuff() const { return Buff; }
+
 	bool IsLocallyReloading();
 };
