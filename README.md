@@ -510,23 +510,38 @@ The Content folder is not included as part of this project, if you want a copy o
 The content folder is stored in s3 bucket
 Pull down from bucket
 ```
+  #Execute these from inside directory CPPUE5MultiplayerShooter
   aws s3 cp --recursive s3://<bucket>/CPPUE5MultiplayerShooter/Blaster/Content Blaster/Content
   aws s3 cp --recursive s3://<bucket>/CPPUE5MultiplayerShooter/MPTesting/Content MPTesting/Content
   aws s3 cp --recursive s3://<bucket>/CPPUE5MultiplayerShooter/MenuSystem/Content MenuSystem/Content
+
+  #Execute this from the directory above CPPUE5MultiplayerShooter
+  aws s3 cp --recursive s3://<bucket>/CPPUE5MultiplayerShooter/Screenshots CPPUE5MultiplayerShooter/Screenshots
+
 ```
 
 Push to bucket
 ```
+  #Execute these from inside directory CPPUE5MultiplayerShooter
   aws s3 cp --recursive Blaster/Content s3://<bucket>/CPPUE5MultiplayerShooter/Blaster/Content
   aws s3 cp --recursive MPTesting/Content s3://<bucket>/CPPUE5MultiplayerShooter/MPTesting/Content
   aws s3 cp --recursive MenuSystem/Content s3://<bucket>/CPPUE5MultiplayerShooter/MenuSystem/Content
+
+  #Execute this from the directory above CPPUE5MultiplayerShooter
+  aws s3 cp --recursive CPPUE5MultiplayerShooter/Screenshots s3://<bucket>/CPPUE5MultiplayerShooter/Screenshots
+
 ```
 
 Or just do a sync
 ```
+  #Execute these from inside directory CPPUE5MultiplayerShooter
   aws s3 sync Blaster/Content s3://<bucket>/CPPUE5MultiplayerShooter/Blaster/Content --delete
   aws s3 sync MPTesting/Content s3://<bucket>/CPPUE5MultiplayerShooter/MPTesting/Content --delete
   aws s3 sync MenuSystem/Content s3://<bucket>/CPPUE5MultiplayerShooter/MenuSystem/Content --delete
+
+  #Execute this from the directory above CPPUE5MultiplayerShooter
+  aws s3 sync CPPUE5MultiplayerShooter/Screenshots s3://<bucket>/CPPUE5MultiplayerShooter/Screenshots --delete
+
 ```
 
 
